@@ -1,5 +1,5 @@
 {
-  "published": false,
+  "published": true,
   "version": "0.1.0",
   "files": [
     {
@@ -7,14 +7,14 @@
       "name": "GolfTraceOpen-Setup-0.1.0-win-x64.exe",
       "bytes": 86247094,
       "sha256": "9d209b0154d6a3a194f9b4a6549a9062a685457a586526a6959deedcf89f5312",
-      "url": null
+      "url": "https://github.com/autoloading8822/GolfTraceOpen/releases/download/v0.1.0/GolfTraceOpen-Setup-0.1.0-win-x64.exe"
     },
     {
       "kind": "portable",
       "name": "GolfTraceOpen-0.1.0-win-x64.zip",
       "bytes": 101627791,
       "sha256": "ac45d434223cdb0f11d5b2128a7c1d8a2e6425856f029c7972328b07944c14ac",
-      "url": null
+      "url": "https://github.com/autoloading8822/GolfTraceOpen/releases/download/v0.1.0/GolfTraceOpen-0.1.0-win-x64.zip"
     }
   ],
   "source_url": "https://github.com/autoloading8822/GolfTraceOpen"
