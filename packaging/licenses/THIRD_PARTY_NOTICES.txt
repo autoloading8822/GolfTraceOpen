@@ -1,0 +1,42 @@
+GolfTraceOpen third-party notices
+================================
+
+This distribution uses Python, PySide6 / Qt for Python, NumPy, and
+opencv-python-headless. The build also uses PyInstaller and its hook packages.
+The licenses directory contains notices copied from the exact installed wheels,
+the Python runtime license, and installed-packages.json with package versions and
+upstream metadata. Build-only packages may also appear in that inventory.
+
+PySide6 and Qt include LGPL/GPL/commercially licensed components. The application
+uses shared Qt libraries in a one-directory bundle. Preserve the bundled notices
+and license texts when redistributing or modifying this package. This notice does
+not replace the terms of any bundled component.
+
+You may replace the LGPL shared libraries with compatible modified versions.
+GolfTraceOpen imposes no restriction on reverse engineering needed to debug such
+modifications. Keep a backup of the application directory before replacing DLLs;
+the replacement must use a compatible ABI and architecture. No modifications to
+the upstream Qt or PySide6 libraries were made for this application.
+
+Qt 6.12.0 corresponding source archive index:
+https://download.qt.io/official_releases/qt/6.12/6.12.0/
+Qt for Python source repository:
+https://code.qt.io/cgit/pyside/pyside-setup.git/
+Qt/PySide6 copyright belongs to The Qt Company Ltd. and other contributors.
+The qt-upstream directory supplies the open-source license texts from the
+corresponding official Qt 6.12.0 source tag. The commercial license notice copied
+from the wheel describes an alternative license option.
+
+Upstream projects and license information:
+Python: https://docs.python.org/3/license.html
+Qt for Python: https://doc.qt.io/qtforpython-6/licenses.html
+NumPy: https://numpy.org/doc/stable/license.html
+OpenCV Python wheels: https://github.com/opencv/opencv-python/blob/4.x/LICENSE.txt
+PyInstaller: https://pyinstaller.org/en/stable/license.html
+
+The application installer is generated with Inno Setup. Inno Setup itself is a
+build tool and is not included as an installed application component.
+https://jrsoftware.org/isinfo.php
+
+No separate ffmpeg.exe command-line program is distributed. OpenCV's wheel may
+include an FFmpeg video-I/O library; its bundled third-party notices are retained.
